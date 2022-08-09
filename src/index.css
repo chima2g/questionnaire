@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.questionnaire {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 16px;
+}
+.questionnaire label {
+  text-align: left;
+  display: block;
+}
+.questionnaire h2 {
+  font-size: 20px;
+  color: #360bb8;
+  margin-bottom: 30px;
+}
+.questionnaire input, .questionnaire select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.questionnaire button {
+  background: #360bb8;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.error-message {
+  color:  red;
+  padding-bottom: 8px;
+}
