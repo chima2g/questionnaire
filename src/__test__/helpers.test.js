@@ -1,15 +1,15 @@
 import { getFormattedAnswer, isValidQuestion } from "../helpers";
 
 describe("getFormattedAnswer", () => {
-  test("empty formatter function to NOT change returned answer", () => {
+  test("empty formatter function does NOT change returned answer", () => {
     expect(getFormattedAnswer("answerString", answer => answer)).toEqual("answerString");
   });
 
-  test("undefined formatter function to NOT format returned answer", () => {
+  test("undefined formatter function does NOT format returned answer", () => {
     expect(getFormattedAnswer("answerString", undefined)).toEqual("answerString");
   });
 
-  test("valid formatter function to correctly format returned answer", () => {
+  test("valid formatter function correctly formats returned answer", () => {
     expect(getFormattedAnswer("answerString", (answer) => answer.concat(" 1234"))).toEqual("answerString 1234");
   });
 })
