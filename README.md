@@ -15,8 +15,7 @@ Installs all modules listed in package.json file and their dependencies.
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+An array of the gathered data can be found in your browswer's console. (Usually available by pressing F12.)
 
 ### `npm test`
 
